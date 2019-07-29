@@ -11,18 +11,20 @@ html, body {
 
 body{
   background: linear-gradient(to right, rgb(59, 111, 224), rgb(53, 199, 204));
-}
-
-.main {
-  height: 80%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.main {
+  width: 500px;
+  height: 600px;
+}
+
 .gameboard {
   width: 480px;
   height: 480px;
+  margin: 0 auto;
   background: rgba(255, 255, 255, 0.6);
   border-radius: 4px;
   display: flex;
@@ -66,4 +68,12 @@ table tr td:last-child {
 
 table tr:last-child td {
   border-bottom: none;
+}
+
+.text {
+  line-height: 2em;
+  font-family: 'sans serif';
+  font-size: 4em;
+  text-align: center;
+  color: rgb(73, 73, 73);
 }
